@@ -65,7 +65,7 @@ export default function FormatArc() {
         <div className="mb-8">
           <p style={{
             fontFamily: "'JetBrains Mono', monospace",
-            fontSize: '0.55rem', color: '#6a6258',
+            fontSize: '0.65rem', color: '#8a8070',
             letterSpacing: '0.18em', marginBottom: '8px',
           }}>
             FORMAT ANALYSIS — DEVICE ARC
@@ -116,14 +116,14 @@ export default function FormatArc() {
               }}>
                 <p style={{
                   fontFamily: "'JetBrains Mono', monospace",
-                  fontSize: '0.52rem', color: '#6a6258',
-                  letterSpacing: '0.1em', marginBottom: '4px',
+                  fontSize: '0.72rem', fontWeight: 500, color: '#b0a898',
+                  letterSpacing: '0.1em', marginBottom: '6px',
                 }}>
                   {stage.act} — {stage.period}
                 </p>
                 <h3 style={{
                   fontFamily: "'JetBrains Mono', monospace",
-                  fontSize: '0.72rem', color: stage.accent,
+                  fontSize: '0.85rem', fontWeight: 700, color: stage.accent,
                   letterSpacing: '0.1em', marginBottom: '14px',
                 }}>
                   {stage.label}

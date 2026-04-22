@@ -39,7 +39,7 @@ export default function MirrorModal({ clip027, clip001, onClose }: MirrorModalPr
         <button
           onClick={onClose}
           className="absolute top-6 right-6 font-mono-jb z-10"
-          style={{ fontSize: '0.7rem', color: '#5a5248', background: 'none', border: 'none', cursor: 'pointer', letterSpacing: '0.1em' }}
+          style={{ fontSize: '0.7rem', color: '#8a8070', background: 'none', border: 'none', cursor: 'pointer', letterSpacing: '0.1em' }}
         >
           ✕ CLOSE
         </button>
@@ -55,7 +55,7 @@ export default function MirrorModal({ clip027, clip001, onClose }: MirrorModalPr
           <div className="text-center mb-8">
             <p
               className="font-mono-jb mb-2"
-              style={{ fontSize: '0.55rem', color: '#5a5248', letterSpacing: '0.12em' }}
+              style={{ fontSize: '0.55rem', color: '#8a8070', letterSpacing: '0.12em' }}
             >
               CLIP 027 — MIRROR SEQUENCE
             </p>
@@ -106,7 +106,7 @@ export default function MirrorModal({ clip027, clip001, onClose }: MirrorModalPr
               </p>
               <div
                 className="mt-6 font-mono-jb"
-                style={{ fontSize: '0.6rem', color: '#5a5248', lineHeight: 1.7 }}
+                style={{ fontSize: '0.6rem', color: '#8a8070', lineHeight: 1.7 }}
               >
                 {clip001.technicalNote}
               </div>
@@ -158,7 +158,7 @@ export default function MirrorModal({ clip027, clip001, onClose }: MirrorModalPr
               </p>
               <div
                 className="mt-6 font-mono-jb"
-                style={{ fontSize: '0.6rem', color: '#5a5248', lineHeight: 1.7 }}
+                style={{ fontSize: '0.6rem', color: '#8a8070', lineHeight: 1.7 }}
               >
                 {clip027.technicalNote}
               </div>
@@ -168,7 +168,7 @@ export default function MirrorModal({ clip027, clip001, onClose }: MirrorModalPr
                   style={{
                     fontSize: '0.85rem',
                     fontStyle: 'italic',
-                    color: '#5a5248',
+                    color: '#8a8070',
                     lineHeight: 1.7,
                     borderLeft: '1px solid rgba(90,82,72,0.3)',
                     paddingLeft: '12px',

@@ -67,7 +67,7 @@ export default function ActNav({ activeAct, onActChange, onListOpen }: ActNavPro
           {/* Left: wordmark */}
           <span
             className="font-mono-jb hidden sm:block"
-            style={{ fontSize: '0.6rem', color: '#5a5248', letterSpacing: '0.1em' }}
+            style={{ fontSize: '0.6rem', color: '#8a8070', letterSpacing: '0.1em' }}
           >
             BEFORE WE FIGURE IT OUT
           </span>
@@ -82,7 +82,7 @@ export default function ActNav({ activeAct, onActChange, onListOpen }: ActNavPro
                 style={{
                   fontSize: '0.65rem',
                   letterSpacing: '0.12em',
-                  color: activeAct === act ? accent : '#5a5248',
+                  color: activeAct === act ? accent : '#8a8070',
                   borderBottom: activeAct === act ? `1px solid ${accent}` : '1px solid transparent',
                   background: 'none',
                   cursor: 'pointer',
@@ -97,7 +97,7 @@ export default function ActNav({ activeAct, onActChange, onListOpen }: ActNavPro
           <div className="flex items-center gap-4">
             <span
               className="font-mono-jb hidden md:block"
-              style={{ fontSize: '0.55rem', color: '#5a5248', letterSpacing: '0.06em' }}
+              style={{ fontSize: '0.65rem', color: '#8a8070', letterSpacing: '0.06em' }}
             >
               COMPACT → MIXED → PHONE
             </span>

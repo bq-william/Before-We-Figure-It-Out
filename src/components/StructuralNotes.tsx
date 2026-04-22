@@ -57,7 +57,7 @@ function NoteCard({ note, index, isInView }: { note: (typeof notes)[0]; index: n
         <div>
           <span style={{
             fontFamily: "'JetBrains Mono', monospace",
-            fontSize: '0.52rem', color: '#6a6258',
+            fontSize: '0.65rem', color: '#8a8070',
             letterSpacing: '0.12em', display: 'block', marginBottom: '5px',
           }}>
             {note.label}
@@ -72,7 +72,7 @@ function NoteCard({ note, index, isInView }: { note: (typeof notes)[0]; index: n
         </div>
         <span style={{
           fontFamily: "'JetBrains Mono', monospace",
-          fontSize: '0.8rem', color: '#6a6258',
+          fontSize: '0.8rem', color: '#8a8070',
           transform: open ? 'rotate(45deg)' : 'rotate(0deg)',
           transition: 'transform 0.2s',
           flexShrink: 0, marginLeft: '16px',
@@ -122,7 +122,7 @@ export default function StructuralNotes() {
       >
         <p style={{
           fontFamily: "'JetBrains Mono', monospace",
-          fontSize: '0.55rem', color: '#6a6258',
+          fontSize: '0.65rem', color: '#8a8070',
           letterSpacing: '0.18em', marginBottom: '8px',
         }}>
           SCRIPT NOTES

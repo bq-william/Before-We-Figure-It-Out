@@ -78,7 +78,7 @@ export default function ClipCard({ clip, onClick }: ClipCardProps) {
         <div style={{ position: 'absolute', top: '8px', right: '8px' }}>
           <span style={{
             fontFamily: "'JetBrains Mono', monospace",
-            fontSize: '0.5rem',
+            fontSize: '0.62rem',
             color: 'rgba(232,224,213,0.4)',
             border: '1px solid rgba(232,224,213,0.15)',
             padding: '1px 5px',
@@ -116,7 +116,7 @@ export default function ClipCard({ clip, onClick }: ClipCardProps) {
         <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
           <span style={{
             fontFamily: "'JetBrains Mono', monospace",
-            fontSize: '0.5rem',
+            fontSize: '0.62rem',
             color: device.color,
             letterSpacing: '0.1em',
             fontWeight: 500,
@@ -140,13 +140,13 @@ export default function ClipCard({ clip, onClick }: ClipCardProps) {
         {/* Date + Location */}
         <div style={{
           fontFamily: "'JetBrains Mono', monospace",
-          fontSize: '0.5rem',
-          color: '#5a5248',
+          fontSize: '0.62rem',
+          color: '#8a8070',
           letterSpacing: '0.07em',
           lineHeight: 1.6,
         }}>
           <div>{clip.date}</div>
-          <div style={{ color: '#6a6258' }}>{clip.location}</div>
+          <div style={{ color: '#8a8070' }}>{clip.location}</div>
         </div>
 
         {/* Markers — shown as small tags */}
@@ -155,7 +155,7 @@ export default function ClipCard({ clip, onClick }: ClipCardProps) {
             {clip.markers.map((m, i) => (
               <span key={i} style={{
                 fontFamily: "'JetBrains Mono', monospace",
-                fontSize: '0.42rem',
+                fontSize: '0.55rem',
                 letterSpacing: '0.06em',
                 padding: '1px 5px',
                 background: m.type === 'format'
@@ -185,7 +185,7 @@ export default function ClipCard({ clip, onClick }: ClipCardProps) {
           {clip.listItem && (
             <span style={{
               fontFamily: "'JetBrains Mono', monospace",
-              fontSize: '0.42rem',
+              fontSize: '0.55rem',
               color: clip.act === 3 ? '#6b8fa8' : '#b09060',
               letterSpacing: '0.06em',
             }}>
@@ -195,8 +195,8 @@ export default function ClipCard({ clip, onClick }: ClipCardProps) {
           {clip.special === 'argument' && (
             <span style={{
               fontFamily: "'JetBrains Mono', monospace",
-              fontSize: '0.42rem',
-              color: '#5a5248',
+              fontSize: '0.55rem',
+              color: '#8a8070',
               letterSpacing: '0.06em',
             }}>
               ▓ BLACKOUT
@@ -205,7 +205,7 @@ export default function ClipCard({ clip, onClick }: ClipCardProps) {
           {clip.special === 'mirror' && (
             <span style={{
               fontFamily: "'JetBrains Mono', monospace",
-              fontSize: '0.42rem',
+              fontSize: '0.55rem',
               color: '#c9a97a',
               letterSpacing: '0.06em',
             }}>
@@ -215,8 +215,8 @@ export default function ClipCard({ clip, onClick }: ClipCardProps) {
           {clip.special === 'screenshot' && (
             <span style={{
               fontFamily: "'JetBrains Mono', monospace",
-              fontSize: '0.42rem',
-              color: '#5a5248',
+              fontSize: '0.55rem',
+              color: '#8a8070',
               letterSpacing: '0.06em',
             }}>
               □ STILL

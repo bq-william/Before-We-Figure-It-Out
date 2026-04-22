@@ -52,7 +52,7 @@ export default function ListModal({ open, onClose }: ListModalProps) {
             <button
               onClick={onClose}
               className="absolute top-12 right-8 font-mono-jb"
-              style={{ fontSize: '0.7rem', color: '#5a5248', background: 'none', border: 'none', cursor: 'pointer', letterSpacing: '0.1em' }}
+              style={{ fontSize: '0.7rem', color: '#8a8070', background: 'none', border: 'none', cursor: 'pointer', letterSpacing: '0.1em' }}
             >
               ✕ CLOSE
             </button>
@@ -69,7 +69,7 @@ export default function ListModal({ open, onClose }: ListModalProps) {
               <div className="mb-8">
                 <p
                   className="font-mono-jb mb-2"
-                  style={{ fontSize: '0.55rem', color: '#5a5248', letterSpacing: '0.14em' }}
+                  style={{ fontSize: '0.55rem', color: '#8a8070', letterSpacing: '0.14em' }}
                 >
                   DOCUMENT — HANDWRITTEN LIST — FOUND IN APARTMENT
                 </p>
@@ -81,7 +81,7 @@ export default function ListModal({ open, onClose }: ListModalProps) {
                 </h2>
                 <p
                   className="font-mono-jb mt-3"
-                  style={{ fontSize: '0.6rem', color: '#5a5248', letterSpacing: '0.08em' }}
+                  style={{ fontSize: '0.6rem', color: '#8a8070', letterSpacing: '0.08em' }}
                 >
                   {checkedCount} OF 99 COMPLETED
                 </p>
@@ -101,20 +101,20 @@ export default function ListModal({ open, onClose }: ListModalProps) {
                       >
                         <span
                           className="font-mono-jb flex-shrink-0"
-                          style={{ fontSize: '0.6rem', color: '#3a3530', letterSpacing: '0.06em', width: '28px' }}
+                          style={{ fontSize: '0.6rem', color: '#7a7060', letterSpacing: '0.06em', width: '28px' }}
                         >
                           {item.num}
                         </span>
                         <span
                           className="font-inter"
-                          style={{ fontSize: '0.82rem', color: '#3a3530', lineHeight: 1.5, cursor: 'help' }}
+                          style={{ fontSize: '0.82rem', color: '#7a7060', lineHeight: 1.5, cursor: 'help' }}
                         >
                           {item.text}
                         </span>
                         {tooltip?.num === item.num && (
                           <span
                             className="font-mono-jb"
-                            style={{ fontSize: '0.55rem', color: '#5a5248', letterSpacing: '0.06em', marginLeft: 'auto' }}
+                            style={{ fontSize: '0.55rem', color: '#8a8070', letterSpacing: '0.06em', marginLeft: 'auto' }}
                           >
                             — {tooltip.note}
                           </span>
@@ -177,7 +177,7 @@ export default function ListModal({ open, onClose }: ListModalProps) {
                     >
                       <span
                         className="font-mono-jb flex-shrink-0"
-                        style={{ fontSize: '0.6rem', color: '#5a5248', letterSpacing: '0.06em', width: '28px' }}
+                        style={{ fontSize: '0.6rem', color: '#8a8070', letterSpacing: '0.06em', width: '28px' }}
                       >
                         {item.num}
                       </span>

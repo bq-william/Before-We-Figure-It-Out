@@ -27,7 +27,7 @@ export default function Landing() {
         {/* Archive label */}
         <motion.p
           className="font-mono-jb text-xs tracking-widest uppercase"
-          style={{ color: '#5a5248', letterSpacing: '0.18em' }}
+          style={{ color: '#8a8070', letterSpacing: '0.18em' }}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.3 }}
@@ -54,7 +54,7 @@ export default function Landing() {
 
         {/* Divider */}
         <motion.div
-          style={{ width: '2px', height: '32px', background: '#5a5248', margin: '4px 0' }}
+          style={{ width: '2px', height: '32px', background: '#8a8070', margin: '4px 0' }}
           initial={{ scaleY: 0 }}
           animate={{ scaleY: 1 }}
           transition={{ duration: 0.8, delay: 1 }}
@@ -84,7 +84,7 @@ export default function Landing() {
           className="font-mono-jb"
           style={{
             fontSize: '0.65rem',
-            color: '#5a5248',
+            color: '#8a8070',
             letterSpacing: '0.12em',
             textTransform: 'uppercase',
           }}
@@ -105,7 +105,7 @@ export default function Landing() {
       >
         <span
           className="font-mono-jb"
-          style={{ fontSize: '0.6rem', color: '#5a5248', letterSpacing: '0.14em' }}
+          style={{ fontSize: '0.6rem', color: '#8a8070', letterSpacing: '0.14em' }}
         >
           SCROLL
         </span>

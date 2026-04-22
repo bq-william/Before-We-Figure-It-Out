@@ -72,7 +72,7 @@ function ActSection({
               <p
                 className="font-mono-jb"
                 style={{
-                  fontSize: '0.55rem',
+                  fontSize: '0.65rem',
                   color: accent,
                   letterSpacing: '0.18em',
                   marginBottom: '4px',
@@ -96,25 +96,26 @@ function ActSection({
             <div className="pb-2">
               <p
                 className="font-mono-jb"
-                style={{ fontSize: '0.6rem', color: '#5a5248', letterSpacing: '0.1em', marginBottom: '4px' }}
+                style={{ fontSize: '0.78rem', fontWeight: 600, color: '#c0b8a8', letterSpacing: '0.12em', marginBottom: '5px' }}
               >
                 {info.label}
               </p>
               <p
                 className="font-mono-jb"
-                style={{ fontSize: '0.55rem', color: '#3a3530', letterSpacing: '0.08em', marginBottom: '8px' }}
+                style={{ fontSize: '0.72rem', fontWeight: 500, color: '#9a9080', letterSpacing: '0.08em', marginBottom: '10px' }}
               >
                 {info.desc}
               </p>
               <p
                 className="font-mono-jb"
                 style={{
-                  fontSize: '0.55rem',
+                  fontSize: '0.72rem',
+                  fontWeight: 600,
                   color: accent,
                   letterSpacing: '0.1em',
-                  opacity: 0.6,
-                  border: `1px solid ${accent}33`,
-                  padding: '2px 6px',
+                  opacity: 0.85,
+                  border: `1px solid ${accent}44`,
+                  padding: '3px 8px',
                   display: 'inline-block',
                 }}
               >
