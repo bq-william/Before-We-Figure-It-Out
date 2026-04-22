@@ -1,26 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=JetBrains+Mono:wght@300;400&family=Inter:wght@300;400;500&display=swap');
+
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #0a0908;
+  --text-primary: #e8e0d5;
+  --text-dim: #8a7e72;
+  --text-meta: #5a5248;
+  --accent: #c9a97a;
+  --accent-dim: #a08c6e;
+  --accent-cool: #6b8fa8;
+  --red-pen: #c23b22;
+  --cream: #f5ede0;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html[data-act="1"] {
+  --accent: #c9a97a;
+  --accent-bg: rgba(201, 169, 122, 0.06);
+}
+html[data-act="2"] {
+  --accent: #a08c6e;
+  --accent-bg: rgba(160, 140, 110, 0.04);
+}
+html[data-act="3"] {
+  --accent: #6b8fa8;
+  --accent-bg: rgba(107, 143, 168, 0.06);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  background-color: var(--bg);
+  color: var(--text-primary);
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-cormorant {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+.font-mono-jb {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+}
+.font-inter {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--text-meta);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-dim);
+}
+
+.modal-backdrop {
+  background: rgba(10, 9, 8, 0.92);
+  backdrop-filter: blur(8px);
+}
+
+*:focus-visible {
+  outline: 1px solid var(--accent);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: rgba(201, 169, 122, 0.25);
+  color: var(--text-primary);
 }
