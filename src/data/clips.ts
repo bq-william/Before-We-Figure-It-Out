@@ -9,8 +9,8 @@ export const clips: Clip[] = [
     format: '16:9',
     date: '2023/09/14',
     location: 'EXT. Park Entrance — Day',
-    description: 'Opens mid-recording. Mia films a busker playing saxophone — loose handheld, documentary observational framing, the kind of shot someone takes when they are genuinely watching something rather than composing it. The lens renders the saxophone with warmth; background falls off gently into natural bokeh. The image has texture. This is the visual baseline the film will spend its entire runtime departing from. At roughly the midpoint: a pair of hands enter the foreground holding a paper coffee cup directly in front of the lens — deliberate occlusion of the subject, comedic because it violates a genuinely well-framed shot. O.S. voice: "I think he\'s a little flat, but I didn\'t want to say anything." Mia laughs. Camera dips — the involuntary physical response of laughter destabilizing a held frame. Clip ends.',
-    technicalNote: 'Compact camera. 16:9 landscape. Natural bokeh, warm color rendering, optical grain in open light. This is the visual baseline — the texture the film will spend its entire runtime departing from.',
+    description: 'Opens mid-recording. Mia films a busker playing saxophone — loose handheld, watching rather than composing. The compact camera renders warmth in the image; background falls soft behind the musician. At roughly the midpoint: a pair of hands enter the foreground holding a paper coffee cup directly in front of the lens. O.S. voice: "I think he\'s a little flat, but I didn\'t want to say anything." Mia laughs. The camera drops with the laughter. Clip ends.',
+    technicalNote: 'Compact camera. 16:9 landscape. Warm color rendering, natural bokeh, optical grain in open light. This is the best the image quality gets. Everything from here on is a step down from this.',
     directorNote: 'This is the meet-cute. Theo is never visible. The audience will not understand what they just watched until the final clip of the film. How long should this clip be? Long enough to establish the quality of Mia\'s camera eye before the interruption — probably needs a full beat of just the busker, just her looking, before Theo arrives. The interruption only works if we believe in what it interrupts.',
     markers: [
       { label: 'VISUAL BASELINE', detail: 'This is the warmest, most textured image in the archive. Everything that follows is a departure from this quality.', type: 'format' },
@@ -59,7 +59,7 @@ export const clips: Clip[] = [
     technicalNote: 'First Theo-sourced clip. The color shift and resolution drop is immediately legible — this is the audience\'s first signal that there are two different capture devices in the archive, and that we are watching footage from more than one person\'s perspective. Older phone: warmer but muddier color cast, lower native resolution, compressed dynamic range.',
     directorNote: 'He watches her without wanting to be caught. The whip pan to the window is him improvising innocence.',
     markers: [
-      { label: '⚠ FIRST THEO-SOURCED CLIP', detail: 'The color shift and resolution drop against Clip 003 is immediately legible. Older phone: warmer but muddier color cast, lower native resolution, compressed dynamic range. This is the audience\'s first signal that we are watching footage from more than one person\'s perspective.', type: 'format' },
+      { label: '⚠ FIRST THEO-SOURCED CLIP', detail: 'The color shift and resolution drop from Clip 003 is noticeable immediately. Older phone: warmer but muddier, lower resolution, compressed dynamic range. This is the first indication that the archive contains footage from more than one person.', type: 'format' },
       { label: 'FORMAT SHIFT: COMPACT → PHONE', detail: 'The visual quality drops noticeably. Theo\'s footage was never as good as Mia\'s compact camera — and it never improves. His footage doesn\'t degrade because it never had anywhere to fall from.', type: 'format' },
     ],
   },
@@ -204,7 +204,7 @@ export const clips: Clip[] = [
     format: '9:16',
     date: '2024/01/10',
     location: 'INT. Party — Night',
-    description: 'Ambient footage — floating, loose, moving through a crowd. The natural gait of someone filming passively at a party. Phone footage at a party is normal and invisible in a way that compact camera footage would not be. She brought her phone to this party. Maybe she knew it would be that kind of night. At a certain point: Mia swings toward where Theo was standing. He is not there. She holds on the empty space — static hold, several seconds. Does not call his name. Does not move toward it. On her compact camera this would have read unambiguously as a decision — a held frame is a held frame when you\'re using a camera. On a phone, a held frame might be an accident, a freeze, a moment of distraction. The film allows both readings. She pans away. The clip continues — more party, more ambient footage. He does not re-enter the frame.',
+    description: 'She moves through a party filming loosely — crowd noise, people she doesn\'t stop on. Phone footage at a party doesn\'t draw attention the way a compact camera would. At a certain point she swings toward where Theo was standing. He\'s not there. She holds on the empty space for several seconds. Doesn\'t call his name. Doesn\'t move toward it. With a dedicated camera, holding a frame is a deliberate choice. With a phone it might just be a pause. The film doesn\'t tell you which this is. She pans away. The clip continues. He doesn\'t come back into frame.',
     technicalNote: 'Phone at a party is normal and invisible. On the compact camera, a held frame is unambiguously a decision. On a phone, it might be an accident. The film allows both readings.',
     directorNote: 'She held on empty space. On a camera that would be a deliberate composition. On a phone it might be nothing.',
     markers: [
@@ -222,7 +222,7 @@ export const clips: Clip[] = [
     location: 'INT. Apartment — Morning',
     description: 'Theo-sourced clip. Mia at the window, back to camera. Shot from behind — full negative space above her, sky or wall filling the upper half of the frame. Theo says her name, quietly, off-screen. She does not turn around. Very short clip. Ends.',
     technicalNote: 'Theo-sourced. The structural inversion of Clip 002 — there, Mia zoomed in on Theo without him knowing, then caught herself. Here, Theo films Mia from behind without her knowing, says her name, and she doesn\'t come toward him. The camera behaviors have exchanged and neither leads anywhere.',
-    directorNote: 'Is this before or after the argument clip? The emotional logic works either way — before reads as premonition; after reads as aftermath. Consider the metadata implications.',
+    directorNote: 'Is this before or after the argument clip? The metadata date could tell you, but the script leaves it open. Either placement works — it just changes what the clip means.',
     markers: [
       { label: 'STRUCTURAL INVERSION OF CLIP 002', detail: 'In Clip 002, Mia zoomed in on Theo without him knowing, then caught herself and pulled back. Here, Theo films Mia from behind, says her name — and she doesn\'t turn around. The camera behaviors have exchanged. Neither leads anywhere.', type: 'structural' },
     ],
@@ -237,7 +237,7 @@ export const clips: Clip[] = [
     location: 'INT. Apartment — Night',
     description: 'The argument clip. Camera face-down on a hard surface — kitchen counter most likely, surface texture faintly visible at the frame edge if the audience knows to look. Complete visual blackout for the full runtime. This is the longest clip in the film. Audio: phone mic face-down, muffled, compressed — more mid-range than the compact camera would have produced, the voices harder to parse. First several minutes: empty room tone. Refrigerator hum. Distant traffic. Then voices arrive. The argument is deliberately not fully intelligible — the emotional architecture is clear but the content is not. Audible fragments: "I already told you—," "you were the one who—," "I don\'t know how to do this and also—". No profanity. No slamming. This is not a loud argument. It is a tired one. The cadences of two people who have had versions of this argument before. Toward the end: a door. Not slammed. Closed. The phone records the empty apartment for several minutes after the door before the file ends.',
     technicalNote: 'Camera face-down. Complete visual blackout. Phone mic muffled against a hard surface. The argument is not fully intelligible — the emotional architecture is clear but the content is not. The door is not slammed. It is closed. The phone records the empty apartment for several minutes after.',
-    directorNote: 'The audience will replay this clip. There is no more information available in it than there appears to be. That is the point. The found footage format makes a specific promise: what you are hearing is all there is. How much should we be able to understand? The instinct is to keep it at the threshold of comprehension — enough that the audience strains forward, not enough that they get an answer.',
+    directorNote: 'People will replay this clip looking for more. There isn\'t more. The phone was face-down. What the mic picked up is the only record that exists. How much should be audible? The instinct is: enough to follow the shape of it, not enough to get the content. No single line should feel like the answer.',
     special: 'argument',
     markers: [
       { label: '⚠ CAMERA FACE-DOWN — COMPLETE BLACKOUT', detail: 'The phone mic is muffled against a hard surface. There is no image. The phone records the empty apartment for several minutes after the door closes. The audience will replay this clip. There is no more information in it than there appears to be.', type: 'format' },
@@ -281,7 +281,7 @@ export const clips: Clip[] = [
     format: '9:16',
     date: '2024/02/20',
     location: 'EXT. Street — Night',
-    description: 'Late. Mia filming her own feet walking. Theo walking beside her — only their lower halves in frame, his shoes beside hers on wet pavement. Reflection in the pavement. Neither of them speaks. They stopped somewhere in the middle of an ordinary night and she filmed it. The footage is unremarkable. That is the point.',
+    description: 'Late. Mia filming her own feet walking. Theo is beside her — only their lower halves in frame, his shoes next to hers on wet pavement. Reflection in the wet surface. Neither of them speaks. She started filming in the middle of an ordinary night and neither of them stopped her. Nothing happens.',
     technicalNote: 'Phone, night. Lower halves only. The wet pavement holds their reflection. Neither speaks.',
   },
   {
@@ -292,10 +292,10 @@ export const clips: Clip[] = [
     format: '9:16',
     date: '2024/02/28',
     location: 'INT. Apartment — Night',
-    description: 'The only clip not sourced from Mia or Theo\'s phone. Shot by a friend at what appears to be a birthday gathering — the friend\'s phone is briefly visible reflected in a window at the edge of the frame, which is how we know. Mia and Theo are both in frame. Normal, present, unremarkable. Laughing at something off-frame. This is the only clip in which an outside observer captures them together. They look fine. They look like any couple. The outside perspective flattens them into something legible and slightly false.',
-    technicalNote: 'Third-party phone. The only clip not sourced from Mia or Theo. They look fine. They look like any couple. The outside perspective flattens them into something legible and slightly false.',
+    description: 'The only clip not from Mia or Theo\'s phone. Shot by a friend at what looks like a birthday — the friend\'s phone is briefly reflected in a window at the edge of the frame, which is how we can tell. Mia and Theo are both in frame, laughing at something off-camera. They look completely normal. From the outside, they look like any couple at a party. There\'s no way to tell anything is wrong.',
+    technicalNote: 'Third-party phone. The only clip in the archive not from Mia or Theo. Shot without their knowledge. They look fine.',
     markers: [
-      { label: '⚠ ONLY THIRD-PARTY CLIP', detail: 'The only clip in the archive not sourced from Mia or Theo. Shot by a friend. The friend\'s phone is briefly reflected in a window — that\'s how we know. An outside observer. They look like any couple. The outside perspective flattens them into something legible and slightly false.', type: 'structural' },
+      { label: '⚠ ONLY THIRD-PARTY CLIP', detail: 'The only clip in the archive not from Mia or Theo. A friend filmed it — their phone is briefly visible in a window reflection. Mia and Theo are in frame, laughing, apparently normal. From outside, there\'s nothing to see.', type: 'structural' },
     ],
   },
   {
@@ -310,7 +310,7 @@ export const clips: Clip[] = [
     technicalNote: 'Phone. The compact camera\'s disappearance is most felt here — the same apartment that was warm and dimensional in Clip 009 is now flat, phone-compressed, shadows grey rather than brown. Documentation rather than memory-making.',
     directorNote: 'An inventory, or an elegy. She doesn\'t speak.',
     markers: [
-      { label: 'COMPACT CAMERA ABSENCE MOST FELT HERE', detail: 'The same apartment from Clip 009 — the dinner, candles, warm and dimensional. Now: flat, phone-compressed, shadows grey rather than brown. The compact camera\'s disappearance is most legible in this clip.', type: 'format' },
+      { label: 'COMPACT CAMERA ABSENCE MOST VISIBLE HERE', detail: 'Compare this to Clip 009 (same apartment, dinner, candles). That clip was warm and had depth in the shadows. This one is flat — phone-compressed, shadows grey rather than brown. Same space, different camera, noticeably different result.', type: 'format' },
       { label: 'FRAMING: DOCUMENTATION, NOT MEMORY', detail: 'An even, unhurried surveillance pan left to right. This is closer to documentation than memory-making. She pans past his objects — jacket, book, shoes — without stopping on any of them.', type: 'character' },
     ],
   },
@@ -323,7 +323,7 @@ export const clips: Clip[] = [
     date: '2024/03/28',
     location: 'INT. Apartment — Day',
     listItem: 'More items checked. Item 99 still unreadable.',
-    description: 'The list again. More items checked. Not all of them — the incompleteness matters and should be legible. Item 99: still unreadable. The crease has deepened. She pushes in with digital zoom — the phone\'s digital zoom, pixelating and degrading as she goes, the ink softening into compression artifacts. Compare to the optical zoom toward Theo\'s face in Clip 002. She used the same gesture, the same impulse to look more closely. The tools are different. The image falls apart instead of holding. She sets the list down. Clip ends without ceremony.',
+    description: 'The list again. More items checked, not all. Item 99: still unreadable. The crease on the paper has deepened. She zooms in using the phone\'s digital zoom — the image pixelates as she pushes in, the handwriting blurring into compression noise. In Clip 002 she used the optical zoom on the compact camera to push into Theo\'s face — that zoom held the image together. This one doesn\'t. She puts the list down. Clip ends.',
     technicalNote: 'Phone digital zoom — pixelating, degrading, compression artifacts. Compare to the optical zoom in Clip 002. Same gesture. The image falls apart instead of holding.',
     directorNote: 'Should she say anything here? The instinct is no — but there is a version where she says something very quiet and ordinary, like she\'s talking to the list, or to herself, or to him.',
     markers: [
@@ -355,9 +355,9 @@ export const clips: Clip[] = [
     format: '9:16',
     date: '2023/09/14',
     location: 'EXT. Park Entrance — Day',
-    description: 'Filed out of chronological order — it predates all other footage in the archive. Its metadata position at the end of the sequence is unexplained and should remain so. Clip 001 again. Different angle. Different phone. We are back at the busker, the same afternoon — we can tell from the light, the musician\'s set, the same coffee cup in Theo\'s hand. But this is Theo\'s phone. The image is rougher, warmer, slightly fish-eyed at the edges compared to Mia\'s compact camera. The framing is wider. In this version, Mia is visible — full profile, mid-left of frame. She is watching the musician. She has no idea the camera is on her. She looks the way people look when they don\'t know they\'re being looked at. At the same moment as Clip 001: Theo\'s own hands enter his frame — he is raising the coffee cup toward her lens. We are watching him decide to do it. The gesture that was an interruption from Mia\'s perspective is, from his, an introduction. She laughs. In this version we see her laugh. The camera drops — his, this time — and the final frame is Mia\'s face, mid-laugh, slightly motion-blurred as the phone falls, slightly overexposed in the open park light. The worst image quality she appears in across the entire film. The most important image in it. He kept this video. It was in the archive.',
-    technicalNote: 'Theo\'s phone. Rougher, warmer, slightly fish-eyed. This is Clip 001 from his angle — same afternoon, same busker, same coffee cup. In this version we see Mia. In this version we see her laugh. The final image: her face, mid-laugh, motion-blurred as his phone falls, overexposed in open park light. The worst image quality she appears in. The most important image in the film.',
-    directorNote: 'The reversal only works if the audience has tracked two things: Mia\'s habit of filming and Theo\'s habit of not; and the quality differential between her compact camera and his phone. If those throughlines haven\'t registered, this reads as a trick. If they have, it reads as the film\'s thesis: they were always watching each other.',
+    description: 'Filed out of chronological order — this is the oldest footage in the archive, dated the same day as Clip 001. Same park entrance, same busker, same afternoon. But this is Theo\'s phone. The image is rougher, slightly fish-eyed at the edges, wider framing than Mia\'s compact camera. In this version Mia is visible — mid-left, watching the musician, not aware she\'s being filmed. At the same moment Clip 001 shows a pair of hands raising a coffee cup: here we see Theo raising it toward her lens. Clip 001 cuts at her laughter. In this version we see her laughing. His phone drops, and the last frame is her face — mid-laugh, motion-blurred, overexposed in open daylight. It\'s the lowest-quality image of her in the entire archive. He kept this footage. It was in the phone.',
+    technicalNote: 'Theo\'s phone. Rougher, warmer, slightly fish-eyed compared to Mia\'s compact camera. Same afternoon as Clip 001 — the coffee cup matches, the musician\'s set matches, the light matches. Final frame: her face, motion-blurred as his phone drops. Worst image quality she appears in.',
+    directorNote: 'This ending only lands if the audience has noticed two things: that Mia is the one who films and Theo almost never does, and that the compact camera footage looks noticeably better than his phone. If neither of those registered, this clip just seems like a coincidence.',
     special: 'mirror',
     markers: [
       { label: '⚠ FILED OUT OF CHRONOLOGICAL ORDER', detail: 'This clip predates all other footage in the archive — same afternoon as Clip 001. Its metadata position at the end of the sequence is unexplained and should remain so. He kept it. It was in the archive.', type: 'structural' },
